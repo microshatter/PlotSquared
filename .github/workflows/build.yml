@@ -66,8 +66,3 @@ jobs:
           target-branch: main
           target-directory: v7/bukkit
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v7
-        with:
-          name: "PlotSquared-build"
-          path: build/libs/*
